@@ -26,7 +26,7 @@ public class Phone {
 		phone2.screen = 6;
 		phone2.os = "IOS";
 		phone2.size = 8;
-		
+
 		phone2.makecall();
 		phone2.search();
 		phone2.takePicture();
@@ -38,12 +38,10 @@ public class Phone {
 		phone3.screen = 4;
 		phone3.os = "Windows";
 		phone3.size = 6;
-		
+
 		phone3.makecall();
 		phone3.search();
 		phone3.takePicture();
-
-		
 
 	}
 

@@ -13,7 +13,7 @@ public class Company {
 	}
 	
 	public void setName(String str) {
-		name=str+" Inc";
+		name=str;
 	}
 	public String getName() {
 		return name;

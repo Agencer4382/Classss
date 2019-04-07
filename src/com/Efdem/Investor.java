@@ -10,16 +10,16 @@ public class Investor {
 		System.out.println(ford.getName());
 		
 		ford.sell(5000);
-		System.out.println("First income total = "+ford.getIncomeTtl());
+		System.out.println("First sell income total = "+ford.getIncomeTtl());
 		
 		ford.sell(3000);
-		System.out.println("Second income total = "+ford.getIncomeTtl());
+		System.out.println("Second sell income total = "+ford.getIncomeTtl());
 		
 		ford.invest(15000);
 		System.out.println("After invest income total = "+ford.getIncomeTtl());
 		
 		ford.buy(4000);
-		System.out.println(ford.getCapital());
+		System.out.println("After buying capital = "+ford.getCapital());
 	}
 
 }

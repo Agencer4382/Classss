@@ -12,7 +12,8 @@ public class MethodsTaskAry {
 
 	}
 
-	void maxAndMin(int[] ary) {
+	    static 
+	    void maxAndMin(int[] ary) {
 		int max = Integer.MIN_VALUE;
 		int max2 = 0;
 		int min = Integer.MAX_VALUE;

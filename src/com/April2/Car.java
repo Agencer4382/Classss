@@ -2,12 +2,27 @@ package com.April2;
 
 public class Car {
 
-	String make, model, color;
+	private String make, model, color;
 	int year, mph;
+	
+	public Car(String make, String model, String color, int year) {
+		this.make = make;
+		this.model = model;
+		this.color = color;
+		this.year = year;
+		
+	}
+	
+	public Car(String make, String model, String color) {
+		this.make = make;
+		this.model = model;
+		this.color = color;
+		this.year = 2015;
+	}
 
 	public static void main(String[] args) {
 
-		Car car1 = new Car();
+		Car car1 = new Car("Honda", "civic", "Black");
 		car1.make = "Honda";
 		car1.model = "Civic";
 		car1.color = "Black";
@@ -20,7 +35,7 @@ public class Car {
 		
 		car1.drive();
 		car1.stop();
-		System.out.println("When I got the hard break mph = "+car1.mph1(70));
+		System.out.println("When I got the hard break mph = "+car1.mph(70));
 
 	}
 
@@ -28,7 +43,7 @@ public class Car {
 		System.out.println(make+" can drive " );
 	}
 
-	int mph1(int x ) {
+	int mph(int x ) {
 		
 		return x-50;
 	}
@@ -36,5 +51,10 @@ public class Car {
 	void stop() {
 		System.out.println(make+" can stop");
 	}
+
+	public String getColor() {
+		return color;
+	}
+
 
 }

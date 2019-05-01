@@ -6,7 +6,7 @@ public class Task1 {
 		Task1 num = new Task1();
 		num.evenOdd(8);
 		num.isPalindrome("kabak");
-		num.isPrime(10);
+		num.isPrime(25);
 		num.fibanocciNum(0, 1, 0);
 		
 

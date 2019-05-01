@@ -1,6 +1,6 @@
 package com.April4;
 
-import April6.ScannerMethod;
+import com.April6.ScannerMethod;
 
 public class AccessMethods {
 

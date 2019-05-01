@@ -1,6 +1,9 @@
 package com.April9;
 
 public class Reverse {
+	private String name="Jhon";
+	String name1="Bilal";
+	protected String name2="asha";
 
 	protected String reverse(String str) {
 		String rev = "";
@@ -10,25 +13,24 @@ public class Reverse {
 		return rev;
 	}
 
-	public void isPalindrome(String str) {
+	public boolean isPalindrome(String str) {
 		String rev = reverse(str);
 
-		if (str.equals(rev)) {
-			System.out.println(str + " is a palindrome");
-		} else {
-			System.out.println(str + " is not a palindrome");
-		}
+		if (str.equals(rev)) 
+			return true;
+		else return false;
 
 	}
 
 	private String[] words(String str) {
 		return str.split(" ");
 	}
+	
 
 	public static void main(String[] args) {
 		Reverse obj = new Reverse();
 		System.out.println(obj.reverse("hello"));
-		obj.isPalindrome("radar");
+		System.out.println(obj.isPalindrome("radar"));
 		String []ary=obj.words("Hello World");
 		for(String word:ary) {
 			System.out.println(word);

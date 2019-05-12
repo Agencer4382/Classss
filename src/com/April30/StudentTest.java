@@ -16,11 +16,12 @@ public class StudentTest {
 		alist.add(s2);
 		alist.add(s3);
 		alist.add(s4);
-		
+		System.out.println("---------FORLOOP----------");
 		for(Student object:alist) {
-			//object.printStudentDetails();
-			System.out.println(object.name);
+			object.printStudentDetails();
+			//System.out.println(object.name);
 		}
+		System.out.println("------------ITERATOR------");
 		Iterator<Student>it=alist.iterator();
 		while(it.hasNext()) {
 			Student obj=it.next();

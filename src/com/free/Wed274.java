@@ -7,9 +7,8 @@ public class Wed274 {
 		int[][] rating = { { 2, 6, 9, 3, 7 }, { 1, 7, 9, 4, 8 }, { 0, 4, 6, 2, 5 }, { 0, 1, 2, 3 } };
 
 		double sum=0;
-		
 		for(int row=0; row<rating.length; row++) {
-			sum+=rating[row][2];
+			sum=sum+rating[row][2];
 			
 			
 		}

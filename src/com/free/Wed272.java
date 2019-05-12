@@ -10,13 +10,12 @@ public class Wed272 {
 		
 		for(int[]i:rating) {
 			for(int element:i) {
-				
-				if(element>4) {
+				if(element>6) {
 					count++;
 				}
 			}
 		}
-System.out.println(count);
+		System.out.println(count);
 	}
 
 }

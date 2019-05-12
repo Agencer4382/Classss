@@ -12,8 +12,8 @@ public class RemoveWords {
 		word.add("Banana");
 		Iterator<String>it=word.iterator();
 		while(it.hasNext()) {
-			String words=it.next();
-			if(words.endsWith("e")) {
+		
+			if(it.next().endsWith("e")) {
 				it.remove();
 			}
 			

@@ -7,22 +7,18 @@ public class IteratorRemove {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Integer> alist=new ArrayList<>();
-		for(int i=1; i<=10; i++) {
-			alist.add(i);
+		ArrayList<Integer>numbers= new ArrayList<>();
+		for(int i=0; i<=20; i++) {
+			numbers.add(i);
 		}
-		System.out.println(alist);
-		
-		Iterator<Integer>iterator=alist.iterator();
-		while(iterator.hasNext()) {
-			
-			if(iterator.next()%2!=0) {
-				iterator.remove();
+		Iterator<Integer>it= numbers.iterator();
+		while(it.hasNext()) {
+			if (it.next()%2!=1) {
+				it.remove();
+				
 			}
-			
 		}
-		System.out.println(alist);
-		
+		System.out.println(numbers);
 	}
 
 }

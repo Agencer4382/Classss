@@ -33,7 +33,7 @@ public class Reverse {
 		System.out.println(obj.isPalindrome("radar"));
 		String []ary=obj.words("Hello World");
 		for(String word:ary) {
-			System.out.println(word);
+			System.out.print(word);
 			
 		}
 

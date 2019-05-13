@@ -13,7 +13,7 @@ public class HashSetIntro {
 		System.out.println(hset.size());
 		//SET does not keep the order
 		System.out.println(hset);
-		System.out.println(hset.contains(32));
+		System.out.println(hset.contains(66));
 		//Set Interface does not allow duplicates 
 		hset.add(12);
 		hset.add(32);

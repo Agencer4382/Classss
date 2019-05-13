@@ -2,12 +2,14 @@ package com.May4;
 import java.util.*;
 public class AllKeysAndValueFromMap {
 public static void main(String[] args) {
-		Map<Integer,String>map=new HashMap<>();
+		HashMap<Integer,String>map=new HashMap<>();
 		map.put(1, "A");
 		map.put(2, "AA");
 		map.put(3, "B");
 		map.put(4, "C");
 		map.put(5, "D");
+		
+		
 	System.out.println(map);
 	//returns a SET of keys from the map
 	System.out.println("--------each loop-------------");

@@ -1,16 +1,17 @@
 package com.April28;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListDemo {
 
 	public static void main(String[] args) {
-	ArrayList<String> greetings=new ArrayList<String>();
+	List<String> greetings=new ArrayList<String>();
 	greetings.add("Hello");
 	greetings.add("Welcome");
 	greetings.add("Hi");
 	greetings.add("Bye");
-	
+
 	System.out.println(greetings.get(1));
 	System.out.println(greetings.size());//4
 	
@@ -31,3 +32,21 @@ public class ArrayListDemo {
 	}
 
 }
+
+//mercedes,vw,bmw,mercedes,lexus
+//
+//2/1 -> 80
+//2/2 -> 82
+//2/3 -> 90
+//
+//ArrayList
+//[mercedes,vw,bmw,mercedes,lexus]
+//
+//HashSet
+//[mercedes,vw,bmw,lexus]
+//		
+//HashMap
+//key->value
+//2/1 -> 80
+//2/2 -> 82
+//2/3 -> 90

@@ -13,6 +13,7 @@ public class Wed272 {
 				if(element>6) {
 					count++;
 				}
+				
 			}
 		}
 		System.out.println(count);
